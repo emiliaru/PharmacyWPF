@@ -1,0 +1,156 @@
+﻿<UserControl x:Class="Pharmacy.Leki"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Pharmacy"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Oferta Leków" FontSize="20" Foreground="#ffffff" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button Name="Lek1" BorderThickness="0" Grid.Column="0" Grid.Row="1" Margin="25" Click="Lek1_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\acard.jpg"/>
+        </Button>
+        <Button Name="Lek2" BorderThickness="0" Grid.Column="1" Grid.Row="1" Margin="25" Click="Lek2_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\aleve.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek3" Grid.Column="2" Grid.Row="1" Margin="25" BorderThickness="0" Click="Lek3_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\apap.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek4" Grid.Column="0" Grid.Row="2" Margin="25" BorderThickness="0" Click="Lek4_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\ibum.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek5" Grid.Column="1" Grid.Row="2" Margin="25" BorderThickness="0" Click="Lek5_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\ibuprom.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek6" Grid.Column="2" Grid.Row="2" Margin="25" BorderThickness="0" Click="Lek6_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\ketonal.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek7" Grid.Column="0" Grid.Row="3" Margin="25" BorderThickness="0" Click="Lek7_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\lernidum.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek8" Grid.Column="1" Grid.Row="3" Margin="25" BorderThickness="0" Click="Lek8_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\nervosol.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek9" Grid.Column="2" Grid.Row="3" Margin="25" BorderThickness="0" Click="Lek9_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\nurofen.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek10" Grid.Column="0" Grid.Row="4" Margin="25" BorderThickness="0" Click="Lek10_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\olimp-chela-mag.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek11" Grid.Column="1" Grid.Row="4" Margin="25" BorderThickness="0" Click="Lek11_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\panadol.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="Lek12" Grid.Column="2" Grid.Row="4" Margin="25" BorderThickness="0" Click="Lek12_Click">
+            <Image Source="C:\Users\emilk\OneDrive\Pulpit\leki\positivum.jpg"/>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</UserControl>
